@@ -1,0 +1,50 @@
+ ls
+    2  mkdir ter
+    3  ls
+    4  cd ter/
+    5  ls
+    6  wget https://releases.hashicorp.com/terraform/1.0.8/terraform_1.0.8_linux_amd64.zip
+    7  ls
+    8  unzip terraform_1.0.8_linux_amd64.zip 
+    9  ls
+   10  rm terraform_1.0.8_linux_amd64.zip 
+   11  ls
+   12  terrafor --version
+   13  sudo mv terraform /bin/
+   14  ls
+   15  terraform --version
+   16  cd ..
+   17  ls
+   18  rm -rf ter
+   19  ls
+   20  mkdir terraform-docker
+   21  ls
+   22  cd terraform-docker/
+   23  tauch main.tf
+   24  touch main.tf
+   25  ls
+   26  clear
+   27  docker
+   28  terraform init
+   29  terraform apply
+   30  terraform init
+   31  terraform apply
+   32  docker images
+   33  ls
+   34  cd terraform-docker/
+   35  ls
+   36  terraform destroy
+   37  terraform apply
+   38  docker ps
+   39  cd ..
+   40  ls
+   41  mkdir tera
+   42  cd tera
+   43  wget https://releases.hashicorp.com/terraform/1.0.8/terraform_1.0.8_linux_amd64.zip
+   44  ls
+   45  unzip terraform_1.0.8_linux_amd64.zip 
+   46  ls
+   47  rm terraform_1.0.8_linux_amd64.zip 
+   48  ls
+   49  terraform --version
+   50  history
